@@ -1,0 +1,1 @@
+jQuery('.zc-button').click(function(){jQuery.getJSON('/wp-content/themes/hello-elementor-aaum-custom/zc.php',function(response){var code=response.replace(/['"]+/g,'');jQuery('.zc-text').text(code);jQuery('.zc-button').hide();jQuery('.zc-text').show();});});
